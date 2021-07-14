@@ -1862,7 +1862,7 @@ var Icon$h = function (props) {
 var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React.createElement("image", { width: "205", height: "26", href: isDark ? '/images/lime/LogoTextNewDark.png' : '/images/lime/LogoTextNewWhite.png' })));
+        React.createElement("image", { width: "205", height: "26", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/lime/LogoTextNewWhite.png' })));
 };
 
 var Icon$g = function (props) {
@@ -2141,19 +2141,15 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
-                label: "Announcements",
-                href: "https://t.me/lime_swap",
-            },
-            {
                 label: "English Chat",
-                href: "https://t.me/limeswapchat",
+                href: "https://t.me/ZoneSwap",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/limeswapio",
+        href: "https://twitter.com/ZoneSwap",
     },
 ];
 var MENU_HEIGHT = 64;
